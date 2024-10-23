@@ -18,9 +18,6 @@ namespace Congestion_tax_calculator.Infrastructure
         {
             List<CityTollFee> fees ;
 
-            //string executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            //string path = Path.Combine(executableLocation, "Gothenburg-TaxRules.json");
-
             string fileName = "Gothenburg-TaxRules.json";
 
             var path = Path.Combine(Directory.GetCurrentDirectory(), fileName);
