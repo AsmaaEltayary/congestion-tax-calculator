@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>congestion-tax-calculator.Web</name>
+    </assembly>
+    <members>
+        <member name="M:congestion_tax_calculator.Web.Controllers.TaxFeeController.CalculateTax(Congestion_tax_calculator.AppDomain.VehiclePassInfo)">
+            <summary>
+            Calulate total tax for vehicles according to the pass dates and the vehicle type
+            </summary>
+            <param name="info">liste of dates in yyyy-MM-dd HH:mm:ss 2013-02-08 06:01:00  ,
+            vtype:exempted(motorcycle,tractor,emergency,diplomat,foreign,military) other types are taxable (car,other)
+            </param>
+            <returns>total tax fees for all dates of the taxable vehicles rather than return 0 </returns>
+            <remarks> 
+            {
+            "dates": [ "2013-02-08 06:01:00","2013-02-08 15:01:00" ],
+            "vtype": "other"
+            }
+            </remarks>
+        </member>
+        <member name="M:congestion_tax_calculator.Web.Controllers.TaxFeeController.CalculateTaxWithDataStore(Congestion_tax_calculator.AppDomain.VehiclePassInfo)">
+            <summary>
+            Calulate total tax for vehicles Reading City toll Rules from DB after Migration to Local SQL DB
+            </summary>
+            <param name="info" >liste of dates in yyyy-MM-dd HH:mm:ss  2013-02-08 06:01:00 , 
+            vtype:exempted(motorcycle,tractor,emergency,diplomat,foreign,military) other types are taxable (car,other)
+            </param>
+            <returns>total tax fees for all dates of the taxable vehicles rather than return 0 </returns>
+            <remarks> 
+            {
+            "dates": [ "2013-02-08 06:01:00","2013-02-08 15:01:00" ],
+            "vtype": "other"
+            }
+            </remarks>
+        </member>
+    </members>
+</doc>

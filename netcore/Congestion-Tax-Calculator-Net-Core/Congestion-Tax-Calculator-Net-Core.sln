@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "congestion-tax-calculator.Web", "congestion-tax-calculator.Web\congestion-tax-calculator.Web.csproj", "{E0CE5DA2-24EC-4B77-AC32-AD6BD89396DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion-tax-calculator.Infrastructure", "Congestion-tax-calculator.Infrastructure\Congestion-tax-calculator.Infrastructure.csproj", "{C60E7FA5-FC03-4570-BA58-420E6896A387}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion-tax-calculator.AppDomain", "Congestion-tax-calculator.AppDomain\Congestion-tax-calculator.AppDomain.csproj", "{AAF04A00-4708-4267-AC5E-7BFF547DD28C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion-tax-calculator.Test", "Congestion-tax-calculator.Test\Congestion-tax-calculator.Test.csproj", "{0B8CFB08-C9DF-44C7-80D0-B0CC71032788}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{98709DA7-16FD-4103-9C00-04142737A10C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D46DD389-C3F6-438B-8045-770EAB2A59D2}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CE5DA2-24EC-4B77-AC32-AD6BD89396DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CE5DA2-24EC-4B77-AC32-AD6BD89396DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CE5DA2-24EC-4B77-AC32-AD6BD89396DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CE5DA2-24EC-4B77-AC32-AD6BD89396DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60E7FA5-FC03-4570-BA58-420E6896A387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60E7FA5-FC03-4570-BA58-420E6896A387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60E7FA5-FC03-4570-BA58-420E6896A387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60E7FA5-FC03-4570-BA58-420E6896A387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF04A00-4708-4267-AC5E-7BFF547DD28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF04A00-4708-4267-AC5E-7BFF547DD28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF04A00-4708-4267-AC5E-7BFF547DD28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF04A00-4708-4267-AC5E-7BFF547DD28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8CFB08-C9DF-44C7-80D0-B0CC71032788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8CFB08-C9DF-44C7-80D0-B0CC71032788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8CFB08-C9DF-44C7-80D0-B0CC71032788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8CFB08-C9DF-44C7-80D0-B0CC71032788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98709DA7-16FD-4103-9C00-04142737A10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98709DA7-16FD-4103-9C00-04142737A10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98709DA7-16FD-4103-9C00-04142737A10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98709DA7-16FD-4103-9C00-04142737A10C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E809C6B0-2BD3-428C-8491-093C333849CB}
+	EndGlobalSection
+EndGlobal
